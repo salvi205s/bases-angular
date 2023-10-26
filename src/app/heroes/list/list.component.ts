@@ -11,6 +11,7 @@ export class ListComponent {
   public deletedHero?: string;
 
   removeLastHero():void {
+    // pop() borra el ultimo elemento y lo muestra
     this.deletedHero = this.heroNames.pop();
   }
 
